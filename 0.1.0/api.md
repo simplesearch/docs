@@ -18,7 +18,7 @@ Name | Description | Schema | Default
 ---|---|---|---
 time | 搜索耗时 | integer | 
 total | 搜索总数 | integer | 
-result | 搜索结果 | < Map«string,object» > array | 
+result | 搜索结果 | List<Map<String,Object>> | 
 
 
 ### 2. 智能提示接口
@@ -36,7 +36,7 @@ Name | Description | Schema | Default
 ---|---|---|---
 time | 搜索耗时 | integer | 
 total | 搜索总数 | integer | 
-result | 搜索结果 | < Map«string,Integer» > array | 
+result | 搜索结果 | < Map<String,Integer> | 
 
 ### 3. 索引接口
 - POST /rest/index
