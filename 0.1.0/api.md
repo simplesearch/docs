@@ -24,11 +24,11 @@ result | 搜索结果 | List<Map<String,Object>> |
 
 ### 2. 智能提示接口
 - POST /rest/suggest
-- test: http://localhost/rest/suggest?index=lagou&suggest=s
+- test: http://localhost/rest/suggest?index=lagou&query=s
 
 Name | Required | Description | Schema | Default
 ---|---|---|---|---
-alias | 是 | 索引别名 | string | 
+index | 是 | 索引名称 | string | 
 query | 是 | 搜索关键词 | string | 
 
 - SuggestResponse

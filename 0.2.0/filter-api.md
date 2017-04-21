@@ -1,12 +1,12 @@
 
 ```
-/**
+	/**
 	 * FilterQuery、BooleanQuery支持写出很复杂的filter来，支持链式写法，支持bool层层嵌套
 	 */
 	@Test
 	public void test_filterAll(){
-		filter_test1();//中等复杂
-		filter_test2();//特别复杂
+		filter_test1();		//中等复杂
+		filter_test2();		//特别复杂
 	}
 	
 	void filter_test1(){
