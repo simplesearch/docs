@@ -11,6 +11,7 @@ query | 是 | 搜索关键词 | string |
 from |  | 分页，从第几条开始读 | integer | 0
 size |  | 分页，每页数量 | integer | 40
 sort |  | 排序规则，字段:排序，多个字段用逗号分隔。例如 f1:desc,f2:asc,f3:desc,_score。字段后面可以不写排序规则，默认按照desc，如果sort参数为空，则为默认排序，默认排序是按_score降序排。| string | _score
+filter | json格式的过滤器，数据格式和es的dsl一样 | 。| string | 
 
 - SearchResponse
 
